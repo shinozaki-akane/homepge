@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    color: #926acc;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    color: #c54189;
+    cursor: pointer;
+}
+
+/* 検索ボックス */
+.search-box {
+    background: #f0f0f0;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: 10px;
+    float: right;
+}
+
+/* 新規登録ボタン */
+button {
+    background-color: #f3e367;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    color: #926acc;
+}
+
+button:hover {
+    background-color: #f0dd50;
+}
+
+/* メインコンテンツのボックス */
+
+.content-box {
+    background-color: #f0f0f0;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+    
+}
+
+main {
+    background-color: #3d30a2;
+    height: 600px;
+}
+
+
+
+
+
+.content-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color:#3d30a2;
+}
+
+.content-box ol {
+    padding-left: 25px;
+    line-height: 2;
+    color:#3d30a2;
+    text-align: center;
+    list-style: none;
+}
+
+
+
+/* ロボットの位置 */
+.robot {
+   display: flex;
+   margin: 0 0 0 auto;
+}
+
+.robot img {
+    width: 150px;
+}
